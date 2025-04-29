@@ -13,6 +13,7 @@ import com.formation.platform.repository.CoursRepository;
 public class CoursService {
     @Autowired
     private CoursRepository coursRepository;
+    @Autowired
     private CoursMapper coursMapper;
 
     public List<CoursDto> getAll() {

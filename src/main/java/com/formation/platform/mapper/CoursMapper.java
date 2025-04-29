@@ -1,12 +1,14 @@
 package com.formation.platform.mapper;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.formation.platform.dto.CoursDto;
 import com.formation.platform.model.Cours;
 import com.formation.platform.model.User;
 import com.formation.platform.repository.UserRepository;
 
+@Component
 public class CoursMapper {
 
     @Autowired
